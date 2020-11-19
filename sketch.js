@@ -46,10 +46,8 @@ function draw(){
    if(damage < 5){
 wall.shapeColor = "green";
    }
-   console.log("notdamage");
     if(damage > 5){
      wall.shapeColor = "red";
-     console.log("damage")
    }
  
 } 
